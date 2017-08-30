@@ -209,9 +209,18 @@ html {
     margin-top: 115px;
 }
 
-.main h2 {
- background-image: url(images/underline.png);
+.announcement li {
+ list-style: none;
+ background-image: url(images/bullet.png);
  background-repeat: no-repeat;
- background-position: left bottom;
- padding-bottom: 7px;
+ background-position: 0 4px;
+ padding-left: 25px;
+ margin-bottom: 10px;
+}
+
+.main h2 {
+    background-image: url(images/underline.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 7px;
 }
