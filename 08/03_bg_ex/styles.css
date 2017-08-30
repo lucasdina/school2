@@ -188,20 +188,30 @@ table {
 
 
 /* add your styles here */
+
 html {
- height: 100%;
- background-image: linear-gradient(to bottom, rgb(176,194,213), white
-700px);
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgb(176, 194, 213), white 700px);
 }
+
 .wrapper {
- background-color: #FFF;
- background-image: url(images/bg_main.jpg);
- background-position: left top;
- background-repeat: no-repeat;
+    background-color: #FFF;
+    background-image: url(images/bg_main.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
 }
+
 .banner {
- margin-top: 48px;
+    margin-top: 48px;
 }
+
 .announcement {
- margin-top: 115px;
+    margin-top: 115px;
+}
+
+.main h2 {
+ background-image: url(images/underline.png);
+ background-repeat: no-repeat;
+ background-position: left bottom;
+ padding-bottom: 7px;
 }
