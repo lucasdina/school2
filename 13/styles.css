@@ -1,5 +1,9 @@
 /* reset browser styles */
 
+* {
+    box-sizing: border-box;
+}
+
 html,
 body,
 div,
@@ -229,6 +233,7 @@ footer {
     padding: 10px 10px 30px 10px;
     background-color: black;
     color: rgb(204, 204, 204);
+    clear: both;
 }
 
 footer a {
@@ -241,12 +246,19 @@ footer a {
 .sidebar1 {
     float: left;
     width: 20%;
+    padding: 0 20px 0 10px;
 }
 
 .main {
-    margin-left: 22%;
+    float: left;
+    width: 60%;
+    padding: 0 20px 0 20px;
+    border-left: dashed 1px rgb(153, 153, 153);
+    border-right: dashed 1px rgb(153, 153, 153);
 }
+
 .sidebar2 {
- float: right;
- width: 20%;
+    float: right;
+    width: 20%;
+    padding: 0 10px 0 20px;
 }
