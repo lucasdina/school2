@@ -24,9 +24,10 @@
 .nav {
     text-align: right;
 }
+
 .nav .button {
- width: 48%;
- margin: 2px 0;
+    width: 48%;
+    margin: 2px 0;
 }
 
 .button {
@@ -49,11 +50,13 @@
 .action h2 {
     margin: 0 0 20px 0;
 }
+
 h1 {
- font-size: 3rem;
+    font-size: 3rem;
 }
+
 h2 {
- font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 
@@ -70,7 +73,26 @@ h2 {
 
 /* applies to all widths 550px and greater */
 
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+    .header {
+        padding: 40px 0 50px 0;
+    }
+    .logo {
+        position: static;
+        background-color: transparent;
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .nav .button {
+        width: auto;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 4.2rem;
+    }
+}
 
 
 /* Larger than tablet */
@@ -78,7 +100,16 @@ h2 {
 
 /* applies to all widths 750px and greater */
 
-@media (min-width: 750px) {}
+
+/* applies to all widths 750px and greater */
+
+@media (min-width: 750px) {
+    .logo {
+        font-size: 3rem;
+        position: relative;
+        top: 5px;
+    }
+}
 
 
 /* Larger than desktop */
