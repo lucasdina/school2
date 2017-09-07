@@ -136,15 +136,18 @@ footer a {
 	margin: 0 auto;	
 }*/
 
-
+.columnWrapper {
+ float: left;
+ width: 80%;
+}
 .sidebar1 {
   float: left;
-  width: 20%;
+  width: 25%;
   padding: 0 20px 0 10px;
 }
 .main {
-  float: left;
-  width: 60%;
+  float: right;
+  width: 75%;
   padding: 0 20px;
   border-left: dashed 1px rgb(153,153,153);
   border-right: dashed 1px rgb(153,153,153);
@@ -160,6 +163,11 @@ footer {
 nav ul, header h1, footer p, .contentWrapper {
   max-width: 1200px;
   margin: 0 auto; 
+}
+
+/* I added this so that the stupid image doesn't overlap the sidebars */
+img{ 
+    max-width: 100%;
 }
 
 
